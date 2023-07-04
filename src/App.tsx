@@ -22,7 +22,7 @@ class App extends Component<{}, IState> {
     this.state = {
       // data saves the server responds.
       // We use this state to parse data down to the child element (Graph) as element property
-      data: []
+      data: [],
       showGraph: false,
     };
   }
